@@ -1,0 +1,11 @@
+sudo gem install oauth
+
+oauth \
+  --verbose \
+   --query-string \
+   --consumer-key v484mnii2jyswedm6uo2cfcjay7uy49snws \
+   --consumer-secret koay6845che7giy5lr17gnrhckkbhf8h5 \
+   --access-token-url http://www.yourstore.com/magento/oauth/token \
+   --authorize-url http://www.yourstore.com/magento/oauth/authorize \
+   --request-token-url http://www.yourstore.com/magento/oauth/initiate \
+   authorize
